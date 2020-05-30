@@ -61,7 +61,7 @@ img{​
     overflow: hidden;
   }
 
-/*.title-section,*/ .team ul, .team .title, .team p, .logo, .join, .contacts > p{
+/*.title-section,*/ .team .title, .team p, .logo, .join, .contacts > p{
     padding: 0;
     margin: 0;
 }
@@ -383,9 +383,7 @@ h2, .advantages{
     background-color: var(--resources-portfolio-color);
 }
 
-.logo-links{
-    padding: 12px;
-}
+
 
 .employment-team{
     padding-top: 94px;
@@ -437,27 +435,50 @@ h2, .advantages{
 /* .social-links{
     margin-top: 16px;
 } */
-.social-links img{
-    display: block;
-}
 
-.social-links{
+.social-links {
     display: flex;
-    justify-content: space-evenly;
+    margin-right: auto;
+    margin-left: auto;
+    width: 206px;
+    height: 44px;
+    padding: 0;
+}
+  
+.social-links .link {
+    display: flex;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
-.logo{
-    display: block;
+.social-links > li{
+    margin-right: 10px;
 }
 
-/* .social-links > li{
-    padding-bottom: 16px;
-} */
+.social-links > li:last-child{
+    margin-right: 0px;
+}
 
-.social-links img:hover,
-.social-links img:focus{
+.social-links .link-icon {
+    display: inline-block;
+    fill: var(--border-partners-company-color);
+}
+
+.social-links .link:hover > .link-icon,
+.social-links .link:focus > .link-icon {
+    fill: var(--third-text-color);
+}
+  
+.social-links .link:hover,
+.social-links .link:focus {
     background-color: var(--link-color);
 }
+
 
 /* Постоятнные клиенты */
 .employment-partners{
