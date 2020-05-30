@@ -178,19 +178,14 @@ header{
     color: var(--link-color);
 }
 
-/* .item-link:hover,
-.item-link:focus{
-    color: currentColor;
-} */
-
-.nav-contacts .mail:hover,
-.nav-contacts .mail:focus{
-    fill: var(--link-color);
+.mail:hover,
+.mail:focus{
+    fill: currentColor;
 }
 
 .phone:hover,
 .phone:focus{
-    fill: var(--link-color);
+    fill: currentColor;
 }
 
 .phone, .mail{
