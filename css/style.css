@@ -173,24 +173,24 @@ header{
     color: var(--secondary-text-color); 
 }
 
-.nav-contacts .item:hover,
-.nav-contacts .item:focus{
+.nav-contacts .item-link:hover,
+.nav-contacts .item-link:focus{
     color: var(--link-color);
 }
 
-.item-link:hover,
+/* .item-link:hover,
 .item-link:focus{
     color: currentColor;
-}
+} */
 
 .nav-contacts .mail:hover,
 .nav-contacts .mail:focus{
-    fill: currentColor;
+    fill: var(--link-color);
 }
 
 .phone:hover,
 .phone:focus{
-    fill: currentColor;
+    fill: var(--link-color);
 }
 
 .phone, .mail{
