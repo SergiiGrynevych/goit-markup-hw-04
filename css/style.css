@@ -164,10 +164,6 @@ header{
     align-items: center;
 }
 
-.nav-contacts .image{
-    margin-right: 10px;
-}
-
 .nav-contacts .item-link{
     display: flex;
     align-items: center;
@@ -288,28 +284,18 @@ h2, .advantages{
     text-align: center;
 }
 
-.advantages img{
+.advantages-sprite{
     display: block;
     margin-bottom: 30px;
     background-color: var(--resources-portfolio-color);
     border-radius: 4px;
     max-width: 270px;
     height: 120px;
-    /* padding: 25px 106.34px; */
-}
-
-.advantages img:hover,
-.advantages img:focus{
-    background-color: var(--link-color);
-}
-
-.satellite-dish{
-    padding: 25px 102.34px;
-}
-
-.clock, .computer, .cosmonaut{
+    padding: 0;
+    border: none;
     padding: 25px 100px;
 }
+
 
 .advantages-title{
     font-weight: 700;
