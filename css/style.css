@@ -102,8 +102,7 @@ span.last-name{
 
 /* Верхняя панель перехода по ссылкам внутри сайта */
 header{
-    border-bottom: 1px solid var(--benefit-capabilities-color);
-
+    border-bottom: 1px solid var(--header-line-color);
 }
 
 .nav-link{
@@ -170,31 +169,30 @@ header{
 }
 
 .nav-contacts .item-link{
+    display: flex;
+    align-items: center;
     color: var(--secondary-text-color); 
+}
+
+.item-icon{
+    margin-right: 10px;
+}
+
+.item-icon.mail{
+    width: 16px;
+    height: 12px;
+}
+
+.item-icon.phone{
+    width: 10px;
+    height: 15px;
 }
 
 .nav-contacts .item-link:hover,
 .nav-contacts .item-link:focus{
     color: var(--link-color);
+    fill: var(--link-color);
 }
-
-.mail:hover,
-.mail:focus{
-    fill: currentColor;
-}
-
-.phone:hover,
-.phone:focus{
-    fill: currentColor;
-}
-
-.phone, .mail{
-    padding: 0;
-    border: none;
-    fill: var(--secondary-text-color);
-    margin-right: 10px;
-}
-
 
 /* .item-link.mail::before{
     content: '';
