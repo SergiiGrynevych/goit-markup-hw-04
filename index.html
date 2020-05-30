@@ -51,30 +51,38 @@
             <div class="container">
                 <ul class="advantages">
                     <li class="advantages-element">
-                        <svg class="advantages-sprite">
-                            <use href="./images/sprite.svg#icon-satellite-dish" width="70" height="70"></use>
-                        </svg>
+                        <div class="advantages-background">
+                            <svg class="advantages-sprite">
+                                <use href="./images/sprite.svg#icon-satellite-dish" ></use>
+                            </svg>
+                        </div>
                         <h3 class="advantages-title">Внимание к деталям</h3>
                         <p class="advantages-description">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
                     </li>
                     <li class="advantages-element">
-                        <svg class="advantages-sprite">
-                            <use href="./images/sprite.svg#icon-clock" width="70" height="70"></use>
-                        </svg>
+                        <div class="advantages-background">
+                            <svg class="advantages-sprite" width="70" height="70">
+                                <use href="./images/sprite.svg#icon-clock"></use>
+                            </svg>
+                        </div>
                         <h3 class="advantages-title">Пунктуальность</h3>
                         <p class="advantages-description">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
                     </li>                   
                     <li class="advantages-element">
-                        <svg class="advantages-sprite">
-                            <use href="./images/sprite.svg#icon-computer" width="70" height="70"></use>
-                        </svg>
+                        <div class="advantages-background">
+                            <svg class="advantages-sprite" width="70" height="70">
+                                <use href="./images/sprite.svg#icon-computer"></use>
+                            </svg>
+                        </div>
                         <h3 class="advantages-title">Планирование</h3>
                         <p class="advantages-description">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
                     </li>
                     <li class="advantages-element">
-                        <svg class="advantages-sprite">
-                            <use href="./images/sprite.svg#icon-cosmonaut" width="70" height="70"></use>
-                        </svg>
+                        <div class="advantages-background">
+                            <svg class="advantages-sprite" width="70" height="70">
+                                <use href="./images/sprite.svg#icon-cosmonaut"></use>
+                            </svg>
+                        </div>
                         <h3 class="advantages-title">Современные технологии</h3>
                         <p class="advantages-description">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                     </li>          
@@ -256,12 +264,48 @@
             <div class="container employment-partners">
                 <h2 class="title-section">Постоянные клиенты</h2>
                 <ul class="partners">
-                    <li class="partners-image"><a href=""><img src="./images/partners/ya&co.svg" alt="" class="yaco"></a></li>
-                    <li class="partners-image"><a href=""><img src="./images/partners/tagline_co.svg" alt="" class="tagline"></a></li>
-                    <li class="partners-image"><a href=""><img src="./images/partners/company.svg" alt="" class="company"></a></li>
-                    <li class="partners-image"><a href=""><img src="./images/partners/foster_peters.svg" alt="" class="foster"></a></li>
-                    <li class="partners-image"><a href=""><img src="./images/partners/brand.svg" alt="" class="brand"></a></li>
-                    <li class="partners-image"><a href=""><img src="./images/partners/tag_line_co.svg" alt="" class="tag-line"></a></li>
+                    <li class="partners-image">
+                        <a href="" class="partners-link">
+                            <svg class="partners-logo" width="44.27" height="49.23">
+                                <use href="./images/sprite.svg#icon-yaco"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="partners-image">
+                        <a href="" class="partners-link">
+                            <svg class="partners-logo" width="40" height="52">
+                                <use href="./images/sprite.svg#icon-tagline_co"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="partners-image">
+                        <a href="" class="partners-link">
+                            <svg class="partners-logo" width="41" height="42.6">
+                                <use href="./images/sprite.svg#icon-company"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="partners-image">
+                        <a href="" class="partners-link">
+                            <svg class="partners-logo" width="79.56" height="42.02">
+                                <use href="./images/sprite.svg#icon-foster_peters"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="partners-image">
+                        <a href="" class="partners-link">
+                            <svg class="partners-logo" width="59" height="47">
+                                <use href="./images/sprite.svg#icon-brand"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="partners-image">
+                        <a href="" class="partners-link">
+                            <svg class="partners-logo" width="88.48" height="45.44">
+                                <use href="./images/sprite.svg#icon-tag_line_co"></use>
+                            </svg>
+                        </a>
+                    </li>
                 </ul>
             </div>
         </section>
@@ -285,11 +329,35 @@
 
                 <div class="footer-flex-block network">
                     <h2 class="join">присоединяйтесь</h2>
-                    <ul class="social-links-footer">
-                        <li class="social-logo"><a href="" class="join-link"><img src="./images/social-links-white/instagram-white.svg" alt="Логотип Инстаграм" class="join-photo"></a></li>
-                        <li class="social-logo"><a href="" class="join-link"><img src="./images/social-links-white/twitter-white.svg" alt="Логотип Твиттер" class="join-photo"></a></li>
-                        <li class="social-logo"><a href="" class="join-link"><img src="./images/social-links-white/facebook-white.svg" alt="Логотип Фейсбук" class="join-photo"></a></li>
-                        <li class="social-logo"><a href="" class="join-link"><img src="./images/social-links-white/linkedin-white.svg" alt="Логотип Ликнедин" class="join-photo"></a></li>
+                    <ul class="social-links footer-links">
+                        <li>
+                            <a href="https://instagram.com" class="link" aria-label="иконка Инстаграм">
+                                <svg class="link-icon" widht="20" height="20">
+                                    <use href="./images/sprite.svg#icon-instagram"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com" class="link" aria-label="иконка Твиттер">
+                                <svg class="link-icon" widht="20" height="20">
+                                    <use href="./images/sprite.svg#icon-Twitter"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://facebook.com" class="link" aria-label="иконка Фейсбук">
+                                <svg class="link-icon" widht="20" height="20">
+                                    <use href="./images/sprite.svg#icon-Facebook"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://linkedin.com" class="link" aria-label="иконка Линкедин">
+                                <svg class="link-icon" widht="20" height="20">
+                                    <use href="./images/sprite.svg#icon-linkedin"></use>
+                                </svg>
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 
