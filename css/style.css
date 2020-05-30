@@ -131,7 +131,7 @@ header{
 }
 
 .nav-link .title,
-.nav-contacts .link{
+.nav-contacts .item-link{
     display: inline-block;
     margin-bottom: 0px;
 
@@ -169,14 +169,58 @@ header{
     margin-right: 10px;
 }
 
-.nav-contacts .link{
+.nav-contacts .item-link{
     color: var(--secondary-text-color); 
 }
 
-.nav-contacts .link:hover,
-.nav-contacts .link:focus{
+.nav-contacts .item:hover,
+.nav-contacts .item:focus{
     color: var(--link-color);
 }
+
+.item-link:hover,
+.item-link:focus{
+    color: currentColor;
+}
+
+.nav-contacts .mail:hover,
+.nav-contacts .mail:focus{
+    fill: currentColor;
+}
+
+.phone:hover,
+.phone:focus{
+    fill: currentColor;
+}
+
+.phone, .mail{
+    padding: 0;
+    border: none;
+    fill: var(--secondary-text-color);
+    margin-right: 10px;
+}
+
+
+/* .item-link.mail::before{
+    content: '';
+    display: inline-flex;
+    background-image: url('../images/mail.svg');
+    width: 16px;
+	height: 11px;
+    margin-right: 10px;
+    background-size: contain;
+} */
+
+/* .item-link.telephone::before{
+    content: '';
+    display: inline-flex;
+    background-image: url(../images/phone.svg);
+    width: 10px;
+	height: 15px;
+    margin-right: 10px;
+    background-size: contain;
+} */
+
 
 /* Заглавие сайта - HERO */
 .hero{
